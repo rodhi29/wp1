@@ -1,0 +1,52 @@
+    .topbar{
+            position: fixed;
+            top: 0;
+            height: 64px;
+            background-color: rgba(120, 169, 248, 0.219);
+            width: calc(100% - 250px);
+        }
+    .usermenu{
+        position: absolute;
+        right: 20px;
+        height: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        width: 150px;
+    }
+    .usermenu img{
+        position: absolute;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .usermenu span{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 40px;
+    }
+    .user-menu-box{
+        position: absolute;
+        top: 60px;
+        background-color: rgba(86, 112, 147, 0.303);
+        min-width: 150px;
+        padding: 5px;
+        border-radius: 10px;
+        right: -200px;
+
+    }
+    .user-menu-box a{
+        color: white;
+        display: block;
+        padding: 10px 15px;
+        border-radius: 5px;;
+    }
+    .user-menu-box a:hover{
+        background-color: white;
+        color: black;
+    }
+    .usermenu:hover  .user-menu-box{
+        right: 0;
+    }
+
